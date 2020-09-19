@@ -4,5 +4,5 @@ services:
   app:
     build: .
     ports:
-        - "3333:3333"
+        - "3333:${WSPORT}"
     command: yarn start
